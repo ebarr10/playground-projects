@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Picture in Picture</title>
+</head>
+<body>
+
+    <!-- Video -->
+    <video id="video" controls height="360" width="640" hidden></video>
+
+    <!-- Buttons -->
+    <div class="button-container" id="button-container" hidden>
+        <button id="button">START</button>
+    </div>
+
+    <div class="button-container">
+        <button id="screen-select">SCREEN SELECT</button>
+    </div>
+    
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
